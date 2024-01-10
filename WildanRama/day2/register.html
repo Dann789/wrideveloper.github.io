@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <h1>Register</h1>
+            <div class="names">
+                <div class="input-data">
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                    <i class='bx bxs-user-pin'></i>
+                </div>
+    
+                <div class="input-data">
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                    <i class='bx bxs-user-pin'></i>
+                </div>
+            </div>
+            
+            <div class="input-data">
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <i class='bx bx-envelope' style='color:#ffffff' ></i>
+            </div>
+
+            <div class="input-data">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <i class='bx bx-lock-alt'></i>
+            </div>
+
+            <div class="input-data">
+                <input type="password" name="confirm" id="confirm" placeholder="Confirm Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <div class="gender">
+                <label for="male"><input type="radio">Male</label>
+                <label for="female"><input type="radio">Female</label>
+                <label for="prefer"><input type="radio">Prefer Not to Say</label>
+            </div>
+
+            <div class="remember">
+                <label for="remember"><input type="checkbox">I've read aplicable terms and conditions</label>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+
+            <div class="register">
+                <p>Already Have Account? <a href="login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
